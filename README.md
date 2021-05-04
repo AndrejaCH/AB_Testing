@@ -13,4 +13,4 @@ For this project I performed A/B tests on an e-commerce website. The goal is to 
 - Calculating mean from null hypothesis and actual (observed) mean
 - Using z-test and p-value model form `statsmodels.api` to interpret results
 - Using logistic regression model to predict binary outcomes
-
+- Higher order terms and interactions
