@@ -49,16 +49,29 @@ From the chart below we can see a simulated distribution of 10,000 samples from 
 <img src="Visuals/Distribution_of_simulation.png" width="55%" height="55%"> </p>
 
 <p align="center">
-<i>Figure 2: Distribution of simulation for 10,000 samples binned in 50 bins, standard deviations, z-score and critical value area.</i>
+<i>Figure 2: Distribution of simulation for 10,000 samples binned in 50 bins, standard deviations, z-score and critical value area</i>
 </p>
 
 *z-score of -1.31 falls between -1st and -2nd standard deviation - shaded gray area<br>
 critical value of $\alpha$ = 0.05 (95% confidence interval) - shaded red area*
 
->**Interpretation of p-value and z-value**<br>
+**Interpretation of p-value and z-value**<br>
 The **z-value** is a test that measures the difference between an observed statistic and its hypothesized population parameter in units of standard error. We can compare the z-value to critical values of the standard normal distribution to determine whether to reject the null hypothesis. z-score shows how many standard deviations away our observed (actual) difference is to the center. How many standard deviations away pdiff_actual is from p_diffs. In order to interpret z-score we look at the critical value. Critical value for the 95% confidence interval (or alpha level of 0.05 or 5%) is 1.64. Our z-test is -3.11; therefore z-score value falls out of this critical value and we fail to reject the null hypothesis.<br><br>
 The **p-value** is a probability that measures the evidence against the null hypothesis. A smaller p-value provides stronger evidence against the null hypothesis.
 
+#### Logistic regression and higher order terms
+
+Sometimes we would like to fit models where the response is not lineary related to the explanatory variable. We can do this with what are known as higher order terms. Higher order terms include quadratics, cubics and many other relationships. In order to add these terms to our linear models, we can simply multiply our columns by one another. 
+
+<p align="center">
+<img src="Visuals/HigherOrder.PNG" width="55%" height="55%"> </p>
+
+<p align="center">
+<i>Figure 2:Adding Higher Order Terms</i>
+</p>
+
+Adding higher terms did not improve the model. Based on p-value for CA_abpage and UK_abpage is 0.383 and 0.238, respectively indicating that interactions are not significant and we would consider removing them from the model. 
+However it is essential to be aware of interactions since they can improve our models or even hurt if we do not add them and show significance. 
 
 ## Conclusions
 
