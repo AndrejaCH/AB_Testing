@@ -26,7 +26,7 @@ For this project, I am analyzing an A/B test run by an e-commerce website. The g
 ## Result and Charts from Analysis 
  Comprehensive analysis for AB Testing can be found in [ipynb file](Analyze_AB_test.ipynb)
  
-#### Distribution of differences and diference between acctual mean and mean under null
+### Distribution of differences and diference between acctual mean and mean under null
 
 From the chart below we can see a simulated distribution of 10,000 samples from the null using `np.random.binomial` formula (blue bars). Red lines represent 95% confidence interval, dashed gray line represent the null mean and dashed dark blue line represent the actual mean.
 
@@ -41,7 +41,7 @@ Now we need to calculate p-value in order to reject or fail to reject the null h
 
 ***For this analysis we got a p-value of 0.9009 meaning that nearly all statistics came from a null (almost all ~ 90%); therefore, we fail to reject null hypothesis, and conclude that alternative hypothesis is not true -> new page is the same or worse than the old page.***
 
-#### z-score and p-value with statsmodels.api
+### z-score and p-value with statsmodels.api
 
 From the chart below we can see a simulated distribution of 10,000 samples from the null using `np.random.binomial` formula (light blue bars) standard deviation lines, area of z-score and area of critical value. This is another way to interpret values computed with the built-in function `statsmodels.api`.
 
@@ -52,14 +52,14 @@ From the chart below we can see a simulated distribution of 10,000 samples from 
 <i>Figure 2: Distribution of simulation for 10,000 samples binned in 50 bins, standard deviations, z-score and critical value area</i>
 </p>
 
-*z-score of -1.31 falls between -1st and -2nd standard deviation - shaded gray area<br>
-critical value of $\alpha$ = 0.05 (95% confidence interval) - shaded red area*
+***z-score of -1.31 falls between -1st and -2nd standard deviation - shaded gray area<br>
+critical value of $\alpha$ = 0.05 (95% confidence interval) - shaded red area***
 
 **Interpretation of p-value and z-value**<br>
 The **z-value** is a test that measures the difference between an observed statistic and its hypothesized population parameter in units of standard error. We can compare the z-value to critical values of the standard normal distribution to determine whether to reject the null hypothesis. z-score shows how many standard deviations away our observed (actual) difference is to the center. How many standard deviations away pdiff_actual is from p_diffs. In order to interpret z-score we look at the critical value. Critical value for the 95% confidence interval (or alpha level of 0.05 or 5%) is 1.64. Our z-test is -3.11; therefore z-score value falls out of this critical value and we fail to reject the null hypothesis.<br><br>
 The **p-value** is a probability that measures the evidence against the null hypothesis. A smaller p-value provides stronger evidence against the null hypothesis.
 
-#### Logistic regression and higher order terms
+### Logistic regression and higher order terms
 
 Sometimes we would like to fit models where the response is not lineary related to the explanatory variable. We can do this with what are known as higher order terms. Higher order terms include quadratics, cubics and many other relationships. In order to add these terms to our linear models, we can simply multiply our columns by one another. 
 
