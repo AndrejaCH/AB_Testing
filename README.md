@@ -16,7 +16,7 @@ For this project I performed A/B tests on an e-commerce website. The goal is to 
 - Higher order terms and interactions
 
 ## Result and Charts from Analysis 
- Comprehensive analysis for AB Testing can be found in [HTML file](Analyze_AB_test.html) or [ipynb file](Analyze_AB_test.ipynb)
+ Comprehensive analysis for AB Testing can be found in [ipynb file](Analyze_AB_test.ipynb)
 
 <p align="center">
 <img src="Visuals/Distribution_of_differences.png" width="55%" height="55%"> </p>
