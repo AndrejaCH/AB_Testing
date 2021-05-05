@@ -15,7 +15,8 @@ For this project I performed A/B tests on an e-commerce website. The goal is to 
 - Using logistic regression model to predict binary outcomes
 - Higher order terms and interactions
 
-## Result and Charts from Analysis
+## Result and Charts from Analysis 
+ Comprehensive analysis for AB Testing can be found in [HTML file](Analyze_AB_test.html) or [ipynb file](Analyze_AB_test.ipynb)
 
 <p align="center">
 <img src="Visuals/Distribution_of_differences.png" width="55%" height="55%"> </p>
@@ -29,7 +30,7 @@ For this project I performed A/B tests on an e-commerce website. The goal is to 
 <img src="Visuals/Distribution_of_simulation.png" width="55%" height="55%"> </p>
 
 <p align="center">
-<i>Figure 2: Distribution of simulation for 10,000 samples binned in 50 bins, standard diviations, z-score and critical value area.</i>
+<i>Figure 2: Distribution of simulation for 10,000 samples binned in 50 bins, standard deviations, z-score and critical value area.</i>
 </p>
 
 
