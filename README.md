@@ -76,4 +76,3 @@ However it is essential to be aware of interactions since they can improve our m
 ## Conclusions
 
 p-value of 0.9009 means that nearly all statistics came from a null (almost all ~ 90%); therefore, we fail to reject null hypothesis and the company should stick with the old page. Z-score indicates similar: Critical value for the 95% confidence interval (or alpha level of 0.05 or 5%) is 1.64. Our z-test is -3.11; therefore z-score value falls out of this critical value and we fail to reject the null hypothesis.Adding additional features did not improve our model, since none of the features indicated significance. However it is essential to check for higher order interactions in order not to miss anything. The bottom line is we fail to reject null hypotheses and the company should stick with the old page.
-
