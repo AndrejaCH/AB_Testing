@@ -1,4 +1,4 @@
-# AB Testing
+# A/B Testing
 
 ## Project Overview
 A/B tests are very commonly performed by data analysts and data scientists. Well-established products typically have a large consumer base and reliable sales and usage metrics, and are highly valued by their company. As a result, it's too risky to implement changes directly to the product without proper evaluation of the consequences.
