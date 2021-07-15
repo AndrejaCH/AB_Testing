@@ -24,7 +24,8 @@ For this project, I am analyzing an A/B test run by an e-commerce website. The g
 - [x] Using Higher order terms and interactions
 
 ## Result and Charts from Analysis 
- Comprehensive analysis for AB Testing can be found in [ipynb file](Analyze_AB_test.ipynb)
+
+***For comprehensive analysis, please see the [jupiter notebook report](Analyze_AB_test.ipynb) where one can follow complete steps of A/B testing, accompanied with charts and explanation.***
  
 ### Distribution of differences and diference between acctual mean and mean under null
 
