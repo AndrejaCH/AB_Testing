@@ -13,8 +13,8 @@ For this project, I am analyzing an A/B test run by an e-commerce website. The g
 
 - [x] Pandas `query` function
 - [x] Probability and Bayes Rule
-- [x] State Research question
-- [x] State Null and Alternative Hypothesis
+- [x] Establish a Research Question
+- [x] Establish Null and Alternative Hypothesis
 - [x] Simulate under null for 10,000 samples using Law of Large Numbers and binomial distribution method `np.random.binomial` & `np.random.normal`
 - [x] Stating confidence interval
 - [x] Calculating mean from null hypothesis and actual (observed) mean
